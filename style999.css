@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./99.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #b8860b;
+  text-transform: uppercase;
+}
+.navbar ul li ::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0, 5s;
+}
+.navbar ul li :hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: start;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.content h1 {
+  font-size: 70px;
+  color: #87cefa;
+}
+
+.section-1 {
+border: 1px solid white;
+  background-color: #87cefa;
+  margin: 0;
+  
+}
+.section-1 h2 {
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: #b8860b;
+  /* text-align: center; */
+  
+}
+.hafen{
+    width: 100vh;
+}
+div.gallery {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 335px;
+    justify-content: space-between
+    ;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #87cefa ;}
+    /* Das Kontaktformular */
+form {
+    background-color: #eee;
+    width: 570px; 
+    padding: 20px;
+    border: 1px solid #8c8c8c;
+  }
+  label { 
+    display: block;
+    cursor: pointer; 
+  }
+  input#absender,
+  textarea {
+    width: 300px;
+    border: 1px solid #8c8c8c;
+    margin-bottom: 1em;
+  }
+  textarea {
+    height: 7em;
+  }
+  input:focus,
+  textarea:focus {
+    background-color: #d9d9d9;
+  }
+    
